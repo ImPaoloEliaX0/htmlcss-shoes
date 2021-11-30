@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.title {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.cont1{
+    width: 100%;
+    margin: auto;
+}
+
+.box1{
+    height: 100vh;
+    width: 100%;
+    margin: 10px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+
+
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.layov1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+
+h2{
+    
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    
+    
+}
+
+
+/*descrizione scarpe*/
+
+#scarperosse{
+    background-image: url(/01.png);
+    background-color: red;
+    color: yellow;
+    
+}
+
+#scarperosse img , #scarpegialle img , #scarpeverdi img{
+    width: 400px;
+    height: 300px;
+    transform:translate(-50%, -50%);
+}
+
+
+#scarpeverdi{
+    background-image: url(/02.png);
+    background-color: green;
+    color:yellow ;
+}
+
+#scarpegialle {
+    background-image: url(/03.png);
+    background-color: yellow;
+    color: green;
+}
